@@ -9,7 +9,8 @@ Simple tool for creating twitter list members
 3. Clone this project (or download it, as you please).
 4. Modify the file called `config.json` adding your secret tokens (make sure you keep this safe).
 5. Create a file with all the twitter screen names you want to add (as plain text).
-6. Open your terminal program and run the following command (whilst in the `twists` directory):
+6. From the `twists` directory, run `npm install`.
+7. Open your terminal program and run the following command (whilst in the `twists` directory):
 
 ```
 node index.js <screen_name>/<list_slug> <members.file>
