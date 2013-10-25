@@ -12,11 +12,13 @@ Simple tool for creating twitter list members
 6. Open your terminal program and run the following command (whilst in the `twists` directory):
 
 ```
-    node index.js <screen_name>/<list_slug> <members.file>
+node index.js <screen_name>/<list_slug> <members.file>
 ```
 
 For example:
 
-    node index.js fullfrontalconf/delegates13 members.txt
+```
+node index.js fullfrontalconf/delegates13 members.txt
+```
 
 I hope to create a public tool in the future to make this a lot more user friendly, but for now, this does the job.
