@@ -11,7 +11,9 @@ Simple tool for creating twitter list members
 5. Create a file with all the twitter screen names you want to add (as plain text).
 6. Open your terminal program and run the following command (whilst in the `twists` directory):
 
+```
     node index.js <screen_name>/<list_slug> <members.file>
+```
 
 For example:
 
